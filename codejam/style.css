@@ -1,0 +1,108 @@
+body, html {
+    font: 16px/1.4;
+}
+
+.page {
+    max-width: 400px;
+    padding: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    user-select: none;
+}
+
+.contain {
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.fifteen {
+    width: 100%;
+    padding-bottom: 100%;
+    background: #ffc0bd;
+    margin-bottom: 1.5rem; 
+    position: relative;
+}
+
+.item {
+    outline: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    box-shadow: inset 1px 1px #ffc0bd;
+    transition: transform 0.2s;
+}
+
+.btn {
+    color: #fff;
+    background: #000;
+    font-size: 1.2rem/1.4;
+    border: none;
+    cursor: pointer;
+    padding: 0.5em 1.5em;
+    margin-bottom: 0.5rem;
+}
+
+.btn:hover {
+    background: #922ec5;
+}
+
+
+.bg-score {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.score {
+    max-width: 400px;
+    margin: 5rem auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.pos-top {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+}
+
+.display-none {
+    display: none;
+}
+
+@media (max-width: 1279px) and (min-width: 768px) {
+    body,html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    body,html {
+        font-size: 12px;
+    }
+}
